@@ -608,11 +608,6 @@ td.right {
 
 }
 
-.table .right {
-    
-    
-}
-
 /* FEED ALL, PLAY ALL */
 
 .feature {
@@ -640,7 +635,8 @@ border-radius: 10px !important; }
 
 .alert,
 .alert-warning,
-.alert-danger {
+.alert-danger
+.alert-success {
     text-align: center !important;
   border-radius: 10px !important;
   background-color: #D4A877ff !important;
