@@ -1,6 +1,5 @@
  /*
-CSS template by Katie (#106445)
-Heavy edits by Wizard!
+hiii!!! everything here is free to splice, frankstein, copy, edit, etc!! ty for stopping by! :]
 */
 
 /* lioden  image bookmarks 
@@ -69,13 +68,13 @@ https://static.lioden.com/images/explorenew/winter/frozendirtday.png
     }
 }
 
-#lion_image::after {
+/* #lion_image::after {
   content: var(--frameIMG);
   position: absolute;
   left: 280px;
   top: 150px;
   transform: scale(3.25, 2.5);
-}
+} */
 
 form {
   width: 100%;
@@ -178,6 +177,11 @@ div#commentBox {
 
 .alert {
   width: 100%;
+  margin: 0px !important;
+}
+
+center .alert {
+  margin-bottom: 40px;
 }
 
 .floatright{
@@ -317,6 +321,7 @@ background-repeat: no-repeat;
 background-size: cover;
 font-family: 'Josefin Sans', sans-serif;
 color: #D4A877ff !important;
+overflow-x: hidden;
 }
 
 /* MAIN BACKGROUND  */
