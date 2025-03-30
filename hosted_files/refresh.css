@@ -27,6 +27,11 @@ https://static.lioden.com/images/explorenew/winter/frozendirtday.png
 */
 
 
+/* FONT (From Google Fonts) */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
 /* CSS HEX */
 :root
 {
@@ -46,10 +51,6 @@ https://static.lioden.com/images/explorenew/winter/frozendirtday.png
 --ebony: #63655Cff;
 --ebony-2: #4F5549ff;
 --rose-taupe: #935654ff;}
-
-/* FONT (From Google Fonts) */
-
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 .den-warning {
   position: fixed;
@@ -1090,12 +1091,12 @@ background: rgba(0,0,0,0) !important;
 }
 
 /*---- CHAT BOX ----*/
-/* 
+
 .s-chat-message_menu, #btnLoadNewMessages, #fraChatSettings, #lblCharacterCounter{
   filter: brightness(10);
-} */
+}
 
-/* #fraChatSettings, #btnLoadNewMessages {
+#fraChatSettings, #btnLoadNewMessages {
   display: inline-block;
   height: 16px;
   margin-left: 10px;
@@ -1103,11 +1104,11 @@ background: rgba(0,0,0,0) !important;
   position: relative;
   vertical-align: -3px;
   width: 16px;
-} */
-/* 
+}
+
 #chatMessageList {
   overflow: unset;
-} */
+}
 
 .s-chat-sidebar .channelMenu {
   margin-bottom: -12px !important;
