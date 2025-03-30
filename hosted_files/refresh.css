@@ -125,7 +125,7 @@ div#commentBox {
   width: 85%;
   top:8%;
   left:0%;
-  background-color: #9c1c1c;
+  background-color: #38566Cff;
 }
 
 .col-md-12.col-xs-5, .col-md-12.col-xs-6 {
@@ -172,7 +172,7 @@ div#commentBox {
   width: 88%;
   top:8%;
   right:0;
-  background-color: #9c1c1c;
+  background-color: #38566Cff;
 
 }
 
@@ -208,7 +208,7 @@ div#commentBox {
 }
 
 center .alert {
-  margin-bottom: 40px;
+  margin-bottom: 40px !important;
 }
 
 .floatright{
@@ -1091,31 +1091,47 @@ background: rgba(0,0,0,0) !important;
 
 /*---- CHAT BOX ----*/
 
+.s-chat-message_menu, #btnLoadNewMessages, #fraChatSettings, #lblCharacterCounter{
+  filter: brightness(10)
+
+}
+
+#fraChatSettings, #btnLoadNewMessages {
+  display: inline-block;
+  height: 16px;
+  margin-left: 10px;
+  padding: 0;
+  position: relative;
+  vertical-align: -3px;
+  width: 16px;
+}
+
 #chatMessageList {
   overflow: unset;
 }
 
-.s-chat-message:nth-child(even) /* Even Numbered Messages */ {
-background: #2a425a !important;
-color: #FFF9F3 !important;
-background-repeat: no-repeat;
-border: 1px #000000 dotted !important;
- background-size: cover;
-font-size: 15px !important;
-text-shadow: 1px 1px 1px #14172C!important;
+.s-chat-sidebar .channelMenu {
+  margin-bottom: -12px !important;
+}
 
+.s-chat-message:nth-child(even) /* Even Numbered Messages */ {
+  background: #2a425a !important;
+  color: #FFF9F3 !important;
+  background-repeat: no-repeat;
+  border: 1px #000000 dotted !important;
+  background-size: cover;
+  font-size: 15px !important;
+  text-shadow: 1px 1px 1px #14172C!important;
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
-background: #1b3248 !important;
-color: #FFF9F3 !important;
-background-repeat: no-repeat;
-background-size: cover;
-text-shadow: 1px 1px 1px #14172C!important;
-font-size: 15px !important;
-border: 1px #000000 dotted !important;
-
-
+  background: #1b3248 !important;
+  color: #FFF9F3 !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 1px 1px 1px #14172C!important;
+  font-size: 15px !important;
+  border: 1px #000000 dotted !important;
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
@@ -1132,11 +1148,13 @@ input#comment{
 }
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
-  background: rgb(37,35,59) !important;
-  background: linear-gradient(96deg, rgba(37,35,59,0.8128501400560224) 0%, rgba(121,66,100,0.8576680672268908) 35%, rgba(251,215,179,0.768032212885154) 100%) !important;
-  color: #FFFFFF !important;
-  text-shadow: 1px 1px 1px #14172C!important;
-  border: none !important;
+  margin-bottom: 20px;
+  list-style: none;
+  border-radius: 10px !important;
+  background: #38566Cff !important;
+  color: #A1B8CAff !important;
+  border: 2px solid #011321 !important;
+  position: relative;
   font-size: 18px !important;
 }
 
