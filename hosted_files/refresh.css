@@ -116,42 +116,69 @@ div#commentBox {
   width: 100%;
 }
 
-.col-md-12.col-xs-5, .col-md-12.col-xs-6 {
+.col-md-12.col-xs-5:before, .col-md-12.col-xs-6:before {
+  content:"";
+  z-index: -1;
   position: absolute;
-  background: url("https://wildwizardcreation.neocities.org/assets/paper%20tab.png") right center;
-  padding: 15px;
-  filter: drop-shadow(5px 0px 0px #ffffff) 
-          drop-shadow(0px 5px 0px #ffffff)
-          drop-shadow(0px -5px 0px #ffffff);   
+  display: block;
+  height: 83%;
+  width: 85%;
+  top:8%;
+  left:0%;
+  background-color: #9c1c1c;
+}
+
+.col-md-12.col-xs-5, .col-md-12.col-xs-6 {
+  padding: 48px 58px 36px 10px;
+  background: url("https://wildwizardcreation.neocities.org/assets/drawer_right.png") right center;
+  background-size: cover;
+  position: absolute;
+  background-repeat: no-repeat;
   z-index: 999;
-  margin-left: 40px;
-  clip-path: polygon(83% 0, 100% 0, 100% 100%, 83% 100%);
+  margin-left: 50px;
+  clip-path: polygon(79% 0, 100% 0, 100% 100%, 79% 100%);
   transition: 0.2s ease;
- 
 }
 
 .col-md-12.col-xs-5:hover, .col-md-12.col-xs-6:hover{
-  margin-left: 284px;
+  margin-left: 286px;
   clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%);
 }
 
 .col-md-12.col-xs-5{
-  margin-top: 450px;
+  margin-top: 490px;
 }
 
 .col-md-12.col-xs-12 {
-  position: sticky;
-  width: 400px;
-  margin-left: -1330px;
-  margin-top: 10px;
-  background: url("https://wildwizardcreation.neocities.org/assets/paper%20tab.png") right center;
-  padding: 15px;
-  filter: drop-shadow(-5px 0px 0px #ffffff) 
-          drop-shadow(0px 5px 0px #ffffff)
-          drop-shadow(0px -5px 0px #ffffff)
-          drop-shadow(5px 0px 0px #ffffff);   
+  padding: 65px 24px 67px 73px;
+  background: url("https://wildwizardcreation.neocities.org/assets/long_drawer2.png") left center;
+  background-size: cover;
+  position: absolute;
+  width: 460px;
+  top: 0;
+  right: 0;
+  margin-right: 857px;
   z-index: 999;
+  clip-path: polygon(0 0, 26% 0, 26% 100%, 0% 100%);
+  transition: 0.2s ease;
+}
 
+.col-md-12.col-xs-12:before {
+  content:"";
+  z-index: -1;
+  position: absolute;
+  display: block;
+  height: 86%;
+  width: 88%;
+  top:8%;
+  right:0;
+  background-color: #9c1c1c;
+
+}
+
+.col-md-12.col-xs-12:hover, .col-md-12.col-xs-12:focus, .col-md-12.col-xs-12:active {
+  margin-right: 1188px;
+  clip-path: polygon(0% 0, 98% 0, 98% 100%, 0% 100%);
 }
 
 .col-md-12.col-xs-12 >.visible-md.visible-lg {
@@ -354,6 +381,7 @@ overflow-x: hidden;
   border-radius: 10px;
   background-color: #025464;
   border: 2px solid #011321  !important;
+  box-shadow: none !important;
 }
 
 /* ENERGY BAR BACKGROUND */
