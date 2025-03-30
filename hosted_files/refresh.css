@@ -1107,7 +1107,7 @@ background: rgba(0,0,0,0) !important;
 }
 
 #chatMessageList {
-  overflow: unset;
+  overflow-x: unset;
 }
 
 .s-chat-sidebar .channelMenu {
