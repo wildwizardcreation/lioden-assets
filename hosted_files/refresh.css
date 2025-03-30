@@ -1092,7 +1092,7 @@ background: rgba(0,0,0,0) !important;
 /*---- CHAT BOX ----*/
 
 .s-chat-message_menu, #btnLoadNewMessages, #fraChatSettings, #lblCharacterCounter{
-  filter: brightness(10)
+  filter: brightness(10);
 
 }
 
