@@ -1145,7 +1145,6 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
   background-image: url('https://wildwizardcreation.neocities.org/assets/stars.gif') !important;
   background-position: 0 0 !important;
   background-repeat: repeat !important;
-  background: linear-gradient(96deg, rgba(37,35,59,0.8128501400560224) 0%, rgba(121,66,100,0.8576680672268908) 35%, rgba(251,215,179,0.768032212885154) 100%) !important;
   color: #FFF9F3 !important;
   text-shadow: 1px 1px 1px #14172C!important;
   font-weight: normal;
