@@ -1090,13 +1090,12 @@ background: rgba(0,0,0,0) !important;
 }
 
 /*---- CHAT BOX ----*/
-
+/* 
 .s-chat-message_menu, #btnLoadNewMessages, #fraChatSettings, #lblCharacterCounter{
   filter: brightness(10);
+} */
 
-}
-
-#fraChatSettings, #btnLoadNewMessages {
+/* #fraChatSettings, #btnLoadNewMessages {
   display: inline-block;
   height: 16px;
   margin-left: 10px;
@@ -1104,17 +1103,17 @@ background: rgba(0,0,0,0) !important;
   position: relative;
   vertical-align: -3px;
   width: 16px;
-}
-
+} */
+/* 
 #chatMessageList {
   overflow: unset;
-}
+} */
 
 .s-chat-sidebar .channelMenu {
   margin-bottom: -12px !important;
 }
 
-.s-chat-message:nth-child(even) /* Even Numbered Messages */ {
+.s-chat-message:nth-child(even) /* Even Numbered Messages */ {    
   background: #2a425a !important;
   color: #FFF9F3 !important;
   background-repeat: no-repeat;
