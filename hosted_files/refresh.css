@@ -100,7 +100,7 @@ div#commentBox {
 }
 
 #fraSidebarChat {
-  max-height: 600px;
+  max-height: 650px;
 }
 
 .row {
@@ -1091,8 +1091,12 @@ background: rgba(0,0,0,0) !important;
 
 /*---- CHAT BOX ----*/
 
+#chatMessageList {
+  overflow: unset;
+}
+
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
-background: rgba(20, 23, 44, .6) !important;
+background: #2a425a !important;
 color: #FFF9F3 !important;
 background-repeat: no-repeat;
 border: 1px #000000 dotted !important;
@@ -1103,7 +1107,7 @@ text-shadow: 1px 1px 1px #14172C!important;
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
-background: rgba(20, 23, 44, .6) !important;
+background: #1b3248 !important;
 color: #FFF9F3 !important;
 background-repeat: no-repeat;
 background-size: cover;
@@ -1114,17 +1118,6 @@ border: 1px #000000 dotted !important;
 
 }
 
-.s-chat-message__pinned /* Pinned Message */ {
-background: rgb(37,35,59) !important;
-background: linear-gradient(96deg, rgba(37,35,59,0.8128501400560224) 0%, rgba(121,66,100,0.8576680672268908) 35%, rgba(251,215,179,0.768032212885154) 100%) !important;
-color: #FFFFFF !important;
-text-shadow: 1px 1px 1px #14172C!important;
-border: none !important;
-font-family: 'Bitter', serif;
-font-size: 16px !important;
-
-}
-
 .s-chat-message_timestamp /* Timestamps */ {
 	color: #FFF9F3 !important;
 text-shadow: 1px 1px 1px #14172C!important;
@@ -1132,31 +1125,36 @@ text-shadow: 1px 1px 1px #14172C!important;
 
 div#chatMessageContainer {
 border: 1px #000000 dotted !important;
-
 }
+
 input#comment{
  color: #C67765 !important;
-
-
 }
+
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
-background: rgb(37,35,59) !important;
-background: linear-gradient(96deg, rgba(37,35,59,0.8128501400560224) 0%, rgba(121,66,100,0.8576680672268908) 35%, rgba(251,215,179,0.768032212885154) 100%) !important;
-color: #FFFFFF !important;
-text-shadow: 1px 1px 1px #14172C!important;
-border: none !important;
-font-size: 18px !important;
+  background: rgb(37,35,59) !important;
+  background: linear-gradient(96deg, rgba(37,35,59,0.8128501400560224) 0%, rgba(121,66,100,0.8576680672268908) 35%, rgba(251,215,179,0.768032212885154) 100%) !important;
+  color: #FFFFFF !important;
+  text-shadow: 1px 1px 1px #14172C!important;
+  border: none !important;
+  font-size: 18px !important;
+}
 
-
-}#chatMessagePinned{
-background: rgb(37,35,59) !important;
-background: linear-gradient(96deg, rgba(37,35,59,0.8128501400560224) 0%, rgba(121,66,100,0.8576680672268908) 35%, rgba(251,215,179,0.768032212885154) 100%) !important;
-color: #FFF9F3 !important;
-text-shadow: 1px 1px 1px #14172C!important;
-font-weight: normal;
-border: none !important;
-font-family: 'Bitter', serif;
-font-size: 17px !important;
+#chatMessagePinned{
+  text-align: center !important;
+  background-image: url('https://wildwizardcreation.neocities.org/assets/stars.gif') !important;
+  background-position: 0 0 !important;
+  background-repeat: repeat !important;
+  background: linear-gradient(96deg, rgba(37,35,59,0.8128501400560224) 0%, rgba(121,66,100,0.8576680672268908) 35%, rgba(251,215,179,0.768032212885154) 100%) !important;
+  color: #FFF9F3 !important;
+  text-shadow: 1px 1px 1px #14172C!important;
+  font-weight: normal;
+  border: none !important;
+  font-family: 'Bitter', serif;
+  font-size: 17px !important;
+  text-indent: 0px !important;
+  display: flex;
+  min-height: 0px !important;
 }
 
 /* SCROLL BAR */
