@@ -1170,7 +1170,6 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
   font-family: 'Bitter', serif;
   font-size: 17px !important;
   text-indent: 0px !important;
-  display: flex;
   min-height: 0px !important;
 }
 
