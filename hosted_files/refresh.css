@@ -345,7 +345,7 @@ https://static.lioden.com/images/explorenew/winter/frozendirtday.png
     }
 }
 
-#wikibox {
+.wikibox {
   border: 2px solid #70131c; 
   border-radius: 0px;
   font-size: 1.5rem;
@@ -369,7 +369,7 @@ https://static.lioden.com/images/explorenew/winter/frozendirtday.png
   }
 }
 
-#breedercleanbox {
+.breedercleanbox {
   border: 2px solid #703f29; 
   border-radius: 0px;
   font-size: 1.5rem;
@@ -383,7 +383,7 @@ https://static.lioden.com/images/explorenew/winter/frozendirtday.png
   }
 }
 
-#breederlowbox {
+.breederlowbox {
   border: 2px solid #703f29; 
   border-radius: 0px;
   font-size: 1.5rem;
@@ -397,7 +397,7 @@ https://static.lioden.com/images/explorenew/winter/frozendirtday.png
   }
 }
 
-#tigerbox {
+.tigerbox {
   border: 2px solid #703f29; 
   border-radius: 0px;
   font-size: 1.8rem;
@@ -424,7 +424,7 @@ https://static.lioden.com/images/explorenew/winter/frozendirtday.png
   }
 }
 
-#cubbox {
+.cubbox {
   border: 2px solid #703f29; 
   border-radius: 0px;
   font-size: 1.5rem;
