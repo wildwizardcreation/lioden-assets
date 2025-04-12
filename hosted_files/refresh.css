@@ -1557,16 +1557,16 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
     width: 500px;
   }
 
-  #horizon1 {
+  .horizon1 {
     transform: scaleX(-1) !important;
   }
 
-  #horizon2{
+  .horizon2{
 
   }
 }
 
-#imeanit {
+.imeanit {
   position: absolute;
   right: -200px;
   top: 60px;
