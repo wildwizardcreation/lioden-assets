@@ -1235,7 +1235,7 @@ hr.dashed {
 	margin: 10px;
 	height: 150px;
 	width: 28.4%;
-	overflow: auto
+	overflow: hidden
 }
 
 .infobox {
@@ -1253,7 +1253,7 @@ hr.dashed {
   padding: 15px;
 	height: 290px;
 	width: 40%;
-	overflow: auto;
+	overflow: hidden;
   span {
     display: inline;
     margin:0px;
@@ -1542,4 +1542,34 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
   color: white;
   text-shadow: 0px 3px 10px var(--silver), 0px -3px 10px var(--silver);
   text-shadow:
+}
+
+
+
+.tags {
+  img {
+    width: 90px;
+  }
+}
+
+.highlight {
+  img {
+    width: 500px;
+  }
+
+  #horizon1 {
+    transform: scaleX(-1) !important;
+  }
+
+  #horizon2{
+
+  }
+}
+
+#imeanit {
+  position: absolute;
+  right: -200px;
+  top: 60px;
+  z-index: 10000;
+  pointer-events: none;
 }
